@@ -19037,7 +19037,7 @@ module.exports = require('./lib/React');
 },{"./lib/React":26}],159:[function(require,module,exports){
 
 },{}],160:[function(require,module,exports){
-var React = reauire('react');
+var React = require('react');
 var AppActions  = require('../actions/AppActions');
 var AppStore = require('../stores/AppStore');
 
@@ -19045,7 +19045,7 @@ var App = React.createClass({displayName: "App",
     render: function(){
       return(
           React.createElement("div", null, 
-            "tSDFAFDSF"
+            "aaaaa"
           )
       )
     }
@@ -19053,7 +19053,7 @@ var App = React.createClass({displayName: "App",
 
 module.exports = App;
 
-},{"../actions/AppActions":159,"../stores/AppStore":162}],161:[function(require,module,exports){
+},{"../actions/AppActions":159,"../stores/AppStore":162,"react":158}],161:[function(require,module,exports){
 var App = require('./components/App');
 var React = require('react');
 var ReactDOM = require('react-dom');
