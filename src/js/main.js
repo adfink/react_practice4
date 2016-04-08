@@ -5,5 +5,5 @@ var AppAPI = require('./utils/appAPI.js');
 
 ReactDOM.render(
     <App />,
-    document.getElementById('app');
-)
+    document.getElementById('app')
+);

@@ -6,8 +6,10 @@ var App = React.createClass({
     render: function(){
       return(
           <div>
-            the app
+            tSDFAFDSF
           </div>
-      );
+      )
     }
 });
+
+module.exports = App;
